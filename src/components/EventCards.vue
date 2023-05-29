@@ -1,5 +1,6 @@
 <script setup>
 import EventCard from './EventCard.vue';
+ 
 const data = [
     {
         icon: '/thumbnail-1.png',
@@ -9,8 +10,8 @@ const data = [
         avatars: ['/character-1.png', '/character-2.png', '/character-3.png', '/character-4.png', '/character-5.png', '/character-6.png',]
     },
     {
-        icon: '/thumbnail-1.png',
-        title: 'Design Thinking',
+        icon: '/thumbnail-2.png',
+        title: 'Design Conference 2023',
         location: 'Eindhoven',
         date: '18 april',
         avatars: ['/character-1.png', '/character-2.png', '/character-3.png', '/character-4.png', '/character-5.png', '/character-6.png',]

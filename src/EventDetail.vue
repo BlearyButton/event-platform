@@ -3,6 +3,8 @@ import { onMounted, ref, watch } from 'vue';
 import { useRoute } from 'vue-router'
 import AvatarGroup from './components/AvatarGroup.vue';
 import EventAction from './components/EventAction.vue';
+import EventButtonAdd from './components/EventButtonAdd.vue';
+import EventMaps from './components/EventMaps.vue';
 
 const eventTemplate = ref(null);
 const route = useRoute();
@@ -35,9 +37,9 @@ const data = {
 onMounted(() => {
     eventTemplate.value = data[route.params.id];
 })
-watch(route, async(route) => {
+watch(route, async (route) => {
     eventTemplate.value = data[route.params.id];
-}, {deep: true});
+}, { deep: true });
 
 
 
@@ -51,7 +53,7 @@ watch(route, async(route) => {
                 <img class="h-3 rotate-180" src="/arrow-right-light.svg" />
             </div>
             <div class="bg-background-secondary w-[42px] h-[42px] rounded-full flex items-center justify-center">
-                <img class="h-3 rotate-180" src="/arrow-right-light.svg" />
+                <img class="w-3" src="/icon-smalloverlay.svg" />
             </div>
         </div>
         <div class="px-[24px] pt-[150px]">
@@ -92,6 +94,12 @@ watch(route, async(route) => {
                 <EventAction label="Lees meer over dit evenement" theme="tertiary" />
                 <EventAction label="Open chat met anderen" theme="secondary" />
             </div>
+            <div class="pt-12 ">
+                <EventMaps />
+            </div>
+        </div>
+        <div class="pt-12 pb-24">
+            <EventButtonAdd />
         </div>
     </template>
 </template>
