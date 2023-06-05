@@ -49,9 +49,11 @@ watch(route, async (route) => {
 <template>
     <template v-if="eventTemplate">
         <div class="fixed w-full flex justify-between items-center p-6 z-10">
-            <div class="bg-background-secondary w-[42px] h-[42px] rounded-full flex items-center justify-center">
-                <img class="h-3 rotate-180" src="/arrow-right-light.svg" />
-            </div>
+            <a href="./">
+                <div class="bg-background-secondary w-[42px] h-[42px] rounded-full flex items-center justify-center">
+                    <img class="h-3 rotate-180" src="/arrow-right-light.svg" />
+                </div>
+            </a>
             <div class="bg-background-secondary w-[42px] h-[42px] rounded-full flex items-center justify-center">
                 <img class="w-3" src="/icon-smalloverlay.svg" />
             </div>
@@ -75,13 +77,15 @@ watch(route, async (route) => {
                     <p class="text-light text-sm ml-2">{{ `${eventTemplate.startTime} - ${eventTemplate.endTime}` }}</p>
                 </div>
             </div>
-            <div class="bg-background-secondary rounded-[23px] p-6 mt-11">
-                <div class="flex justify-between items-center mb-3">
-                    <p class="text-light text-sm font-semibold">Deze collega's zijn al ingeschreven</p>
-                    <img class="h-[9px]" src="/arrow-right-light.svg" />
+            <a href="./EventSigned.html">
+                <div class="bg-background-secondary rounded-[23px] p-6 mt-11">
+                    <div class="flex justify-between items-center mb-3">
+                        <p class="text-light text-sm font-semibold">Deze collega's zijn al ingeschreven</p>
+                        <img class="h-[9px]" src="/arrow-right-light.svg" />
+                    </div>
+                    <AvatarGroup :key="eventTemplate.id" limit="4" :avatars="eventTemplate.attendees" avatarSize="large" />
                 </div>
-                <AvatarGroup :key="eventTemplate.id" limit="4" :avatars="eventTemplate.attendees" avatarSize="large" />
-            </div>
+            </a>
             <div class="text-light mt-16">
                 <h2 class="text-xl font-semibold">
                     Over het evenement

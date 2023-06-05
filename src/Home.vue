@@ -1,7 +1,6 @@
 <script setup>
 import EventActions from './components/EventActions.vue';
 import EventCards from './components/EventCards.vue';
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
