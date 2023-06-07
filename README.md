@@ -5,7 +5,7 @@
     <img src="/public/thumbnail-5.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Evenementenplatform</h3>
+<h1 align="center">Evenementenplatform</h1>
 
   <p align="center">
     <br />
