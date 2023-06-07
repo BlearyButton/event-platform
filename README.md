@@ -20,8 +20,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Over dit project
-
+<div align="center">
 <img src="/public/product-image.png" alt="Logo" width="500" >
+</div>
 
 Het concept omvat een evenementen platform waar de medewerkers evenementen kunnen toevoegen, en tegelijkertijd zich kunnen inschrijven voor evenementen. Het platform biedt ook de mogelijkheid om te zien welke andere collega's zich hebben ingeschreven voor een evenement, waardoor het gemakkelijk is om gelijkstemde collega's te vinden en connecties te leggen. 
 
