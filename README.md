@@ -30,10 +30,10 @@ Het concept omvat een evenementen platform waar de medewerkers evenementen kunne
 
 
 
-### Built With
+### Gebouwd met
 
-* [![Vue][Vue.js]][Vue-url]
-* [![TailwindCSS][TailwindCSS]][Tailwindcss-url]
+* Vue.js
+* Tailwind CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
