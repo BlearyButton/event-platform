@@ -30,7 +30,7 @@ Het concept omvat een evenementen platform waar de medewerkers evenementen kunne
 
 
 
-### Gebouwd met
+## Gebouwd met
 
 * Vue.js
 * Tailwind CSS
