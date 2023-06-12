@@ -16,28 +16,28 @@ const toggle = () => {
             <li>
                 <router-link to="/" class="flex items-center gap-x-3">
 
-                    <img class="h-4 w-4" src="./events.svg" />
+                    <img class="h-4 w-4" src="/events.svg" />
                     <p class="">Evenementen</p>
                 </router-link>
             </li>
             <li>
                 <router-link to="/peoples" class="flex items-center gap-x-3">
 
-                    <img class="h-4 w-4" src="./people.svg" />
+                    <img class="h-4 w-4" src="/people.svg" />
                     <p class="">People overzicht</p>
                 </router-link>
             </li>
             <li>
                 <router-link to="/saved" class="flex items-center gap-x-3">
 
-                    <img class="h-4 w-4" src="./saved.svg" />
+                    <img class="h-4 w-4" src="/saved.svg" />
                     <p class="">Opgeslagen</p>
                 </router-link>
             </li>
             <li>
                 <router-link to="/notifications" class="flex items-center gap-x-3">
 
-                    <img class="h-4 w-4" src="./notifications.svg" />
+                    <img class="h-4 w-4" src="/notifications.svg" />
                     <p class="">Notificaties</p>
                 </router-link>
             </li>
