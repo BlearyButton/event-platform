@@ -16,7 +16,7 @@ const toggle = () => {
             <li>
                 <router-link to="/" class="flex items-center gap-x-3">
 
-                    <img class="h-4 w-4" src="events.svg" />
+                    <img class="h-4 w-4" src="/events.svg" />
                     <p class="">Evenementen</p>
                 </router-link>
             </li>
