@@ -1,7 +1,7 @@
 <script setup>
 const props = defineProps(['avatars', 'limit', 'avatarSize'])
 const leftOver = props.avatars.length - props.limit;
-const size = props.avatarSize === 'large' ? 'h-[42px] w-[42px] -ml-4' : 'h-8 w-8 -ml-3';
+const size = props.avatarSize === 'large' ? 'h-[42px] w-[42px] -ml-4' : 'h-9 w-9 -ml-3';
 </script>
 
 <template>
