@@ -58,7 +58,7 @@ const toggle = () => {
 
     </button>
     <button v-show="!isOpen" class="flex items-center bg-background-secondary rounded-full pl-1 pr-5 py-1">
-        <img src="avatar-menu.png" />
+        <img src="/avatar-menu.png" />
         <p class="text-white text-sm ml-3">Judith</p>
     </button>
   </div>
